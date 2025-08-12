@@ -1,0 +1,55 @@
+Data emiterii este:
+Sat Aug  9 09:30:00 AM EEST 2025
+ 
+
+<invoice>
+  <companyVatCode>ROW180986</companyVatCode>
+  <client>
+    <name>vio</name>
+    <vatCode></vatCode>
+    <isTaxPayer>true</isTaxPayer>
+    <address>Luica</address>
+    <city>Buc</city>
+    <country>Ro</country>
+    <phone>999</phone>
+    <saveToDb>true</saveToDb>
+  </client>
+  <seriesName>TestF</seriesName>
+  <isDraft>false</isDraft>
+  <product>
+    	<name>Produs 2</name>
+    	<code>554453321</code>
+    	<isDiscount>false</isDiscount>
+    	<measuringUnitName>buc</measuringUnitName>
+    	<currency>RON</currency>
+    	<quantity>5</quantity>
+    	<price>250</price>
+    	<isTaxIncluded>true</isTaxIncluded>
+    	<taxName>Normala</taxName>
+    	<taxPercentage>21</taxPercentage>
+    	<saveToDb>false</saveToDb>
+    	<isService>false</isService>
+	</product><product>
+        <name>Produs 1</name>
+        <code>5443321</code>
+        <isDiscount>false</isDiscount>
+        <measuringUnitName>buc</measuringUnitName>
+        <currency>RON</currency>
+        <quantity>4</quantity>
+    	<price>150</price>
+    	<isTaxIncluded>true</isTaxIncluded>
+    	<taxName>Normala</taxName>
+    	<taxPercentage>21</taxPercentage>
+    	<saveToDb>false</saveToDb>
+    	<isService>false</isService>
+    	</product>  
+</invoice>
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbcResponse>
+  <errorText/>
+  <message/>
+  <number>1830</number>
+  <series>TestF</series>
+  <url/>
+</sbcResponse>

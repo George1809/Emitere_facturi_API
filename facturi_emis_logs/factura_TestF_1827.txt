@@ -1,0 +1,42 @@
+Data emiterii este:
+Fri Aug  8 07:19:48 AM EEST 2025
+ 
+
+<invoice>
+  <companyVatCode>ROW180986</companyVatCode>
+  <client>
+    <name>test</name>
+    <vatCode></vatCode>
+    <isTaxPayer>true</isTaxPayer>
+    <address>Test</address>
+    <city>Bucuresti</city>
+    <country>Romania</country>
+    <phone></phone>
+    <saveToDb>true</saveToDb>
+  </client>
+  <seriesName>TestF</seriesName>
+  <isDraft>false</isDraft>
+  <product>
+    	<name>Produs 2</name>
+    	<code>554453321</code>
+    	<isDiscount>false</isDiscount>
+    	<measuringUnitName>buc</measuringUnitName>
+    	<currency>RON</currency>
+    	<quantity>2</quantity>
+    	<price>250</price>
+    	<isTaxIncluded>true</isTaxIncluded>
+    	<taxName>Normala</taxName>
+    	<taxPercentage>21</taxPercentage>
+    	<saveToDb>false</saveToDb>
+    	<isService>false</isService>
+	</product>  
+  </invoice>
+ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbcResponse>
+  <errorText/>
+  <message/>
+  <number>1827</number>
+  <series>TestF</series>
+  <url/>
+</sbcResponse>
