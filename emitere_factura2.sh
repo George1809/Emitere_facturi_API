@@ -7,9 +7,9 @@ produsele="
 ----------------------------------------------------------
 | Nume produs                     | Pret (cu TVA inclus) |
 ----------------------------------------------------------
-| 1. Produs 1                     | 150 RON              |
-| 2. Produs 2                     | 200 RON              |
-| 3. Produs 3                     | 300 RON              |
+| 1. Bratara de argint            | 150 RON              |
+| 2. Ceas Casio                   | 200 RON              |
+| 3. Casti wireless               | 300 RON              |
 ----------------------------------------------------------
 "
 
@@ -56,7 +56,7 @@ do
 	read -p "Ce cantitate:" cantitate
 	
 	produs1="<product>
-        <name>Produs 1</name>
+        <name>Bratara de argint</name>
         <code>5443321</code>
         <isDiscount>false</isDiscount>
         <measuringUnitName>buc</measuringUnitName>
@@ -71,7 +71,7 @@ do
     	</product>"
 
 	produs2="<product>
-    	<name>Produs 2</name>
+    	<name>Ceas Casio</name>
     	<code>554453321</code>
     	<isDiscount>false</isDiscount>
     	<measuringUnitName>buc</measuringUnitName>
@@ -86,7 +86,7 @@ do
 	</product>"
 
 	produs3="<product>
-    	<name>Produs 3</name>
+    	<name>Casti wireless</name>
     	<code>44554433</code>
     	<isDiscount>false</isDiscount>
     	<measuringUnitName>buc</measuringUnitName>
